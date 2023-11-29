@@ -1,0 +1,71 @@
+.loginSignUp{
+     width: 50%;
+     margin: 20px auto;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+
+.loginSignUpContainer{
+    width: 65%;
+    height: 500px;
+    background:linear-gradient(rgb(255, 0, 115),white);
+    margin: auto;
+    padding: 25px 10px;
+    border-radius: 8px;
+}
+
+.loginSignUpContainer h1{
+    color: white;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.fields{
+   width: 90%;
+   
+   margin:30px auto;
+   display: flex;
+   flex-direction: column;
+   gap: 39px;
+}
+
+.fields input{
+    width: 80%;
+    margin: 0px 9%;
+    height: 40px;
+    border-radius:45px ;
+    border:1px solid black;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.loginSignUp .btn{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    background-color: rgb(223, 127, 255);
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.loginSignUp .btn:hover{
+    background:linear-gradient(60deg,rgb(0, 174, 255),rgb(0, 70, 128)) ;
+}
+
+.already{
+  margin-top:10%;
+  text-align: center;
+}
+
+.already span{
+    color: rgb(255, 0, 98);
+    font-weight: 600;
+}
