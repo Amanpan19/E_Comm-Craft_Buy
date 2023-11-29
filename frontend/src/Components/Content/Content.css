@@ -1,0 +1,56 @@
+.content{
+     display: flex;
+     height: 100vh;
+     background: linear-gradient(45deg, rgb(58, 131, 200), white);
+}
+.contentLeft{
+     display: flex;
+     flex: 1;
+     justify-content: center;
+     gap: 20px;
+     line-height: 1.1;
+     flex-direction: column;
+     padding-left:180px;
+}
+
+.contentLeft h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.contentLeft p{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hand-icon{
+    align-items: center;
+    display: flex;
+}
+
+.hand-icon img{
+    width: 100px;
+}
+
+.latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    border-radius: 50px;
+    border: none;
+    gap: 10px;
+    background: linear-gradient(67deg, rgb(124, 41, 188),rgb(178, 19, 203));
+    color: white;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.contentRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
