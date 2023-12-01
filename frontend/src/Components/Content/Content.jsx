@@ -9,7 +9,7 @@ const Content = () => {
     <div className='content'>
     <div className='contentLeft'>
         <h2>NEW ARRIVALS ONLY</h2>
-        <div>
+        <div className='tags'>
             <div className='hand-icon'>
                 <img src={hand_icon} alt="" />
             </div>

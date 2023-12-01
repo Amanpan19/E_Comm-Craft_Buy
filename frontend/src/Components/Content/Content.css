@@ -1,8 +1,13 @@
 .content{
      display: flex;
      height: 100vh;
-     background: linear-gradient(45deg, rgb(235, 41, 160), white);
+     background: linear-gradient(45deg, rgb(235, 41, 109), white);
+} 
+
+.tags p{
+   color: white;
 }
+
 .contentLeft{
      display: flex;
      flex: 1;
